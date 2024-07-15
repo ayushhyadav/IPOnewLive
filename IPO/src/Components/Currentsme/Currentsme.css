@@ -1,0 +1,290 @@
+.currentsme-ml {
+  width: 100%;
+  height: 100%;
+}
+.currentsme1 {
+  background-image: url(../../../public/assets/Group\ 87.png);
+  width: 100%;
+  height: 200px;
+  background-size:cover;
+  margin-top:20px;
+ 
+}
+.currentsme2 {
+  width: 100%;
+  height: 20px;
+  padding-left: 120px;
+
+}
+.currentsme2-head {
+  width: 100%;
+  font-size: 40px;
+  font-family: Mukta;
+  font-weight: 700;
+  line-height: 40px;
+  color: #ffffff;
+  padding-top: 70px;
+}
+.currentsme2-lnk {
+    display: flex;
+    gap: 20px;
+  width: 100%;
+  height: 40px;
+  font-size: 20px;
+  font-family: Mukta;
+  font-weight: 300;
+  line-height: 28px;
+}
+.currentsme-lnk {
+  color: #ffffff;
+  text-decoration: none;
+}
+.currentsme3{
+    width: 100%;
+}
+.currentsme4 {
+  margin-top: 10px;
+  text-align: center;
+}
+.currentsme4-btn {
+  width: 232px;
+  height: 61px;
+  border-radius: 10px;
+  font-family: mukta;
+  font-size: 24px;
+  line-height: 24px;
+  text-align: center;
+  font-weight: 400;
+  border: none;
+  background-color: #ffffff;
+}
+
+.currentsme5 {
+  margin-left: 100px;
+  margin-top: 20px;
+  font-family: Calibri;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 33px;
+  text-align: justify;
+  color: #323232;
+}
+.currentsme6 { 
+  width: 100%;
+  height: 42px;
+  text-align: center;
+  border-radius:7px;
+  margin-top:50px;
+}
+.currentsme6-b {
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 20px;
+  font-family: Mukta;
+  text-align: justify;
+  height: 20px;
+  color: #323232;
+}
+.currentsme6-in {
+  width: 336px;
+  height: 42px;
+  margin-left: 90px;
+  border-radius: 7px;
+  border: 0.8px solid #3232329c;
+  font-family: Mulish;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 15px;
+}
+.currentsme6-btn {
+  width: 146px;
+  height: 42px;
+  border-radius: 7px;
+  background-color: #4c45b9;
+  color: #ffffff;
+  font-size: 17px;
+  font-family: Mukta;
+  font-weight: 600;
+  text-align: center;
+  line-height: 17px;
+  margin-left: 39px;
+}
+.currentsme7{
+  width: 100%;
+  height: 17px;
+  margin-top: 70px;
+}
+.currentsme7-ul {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+.currentsme7ln {
+  font-family: mukta;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 17px;
+  text-decoration: none;
+  color:#323232;
+}
+.currentsme8 {
+  text-align: center;
+  height: 36px;
+  margin-top: 50px;
+}
+.currentsme8 h4 {
+  font-size: 36px;
+  font-family: Mukta;
+  font-weight: 700;
+  line-height: 36px;
+  color: #4c45b9;
+}
+.currentsme9{
+    width: 100%;
+    overflow-x: auto;
+}
+.currentsme10 {
+  width: 100%;
+  margin-top: 40px;
+  padding: 40px;
+  
+}
+.currentsme10-head {
+  width: 100%;
+  height: 46.58px;
+  border-radius: 10px 10px 0 0;
+  background-color: #f5f5f5;
+  font-family: Mukta;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  text-align: center;
+  padding-top: 10px;
+
+}
+/* New table css */
+.tablecurrent {
+  width: 100%;
+  height: 300px;
+  overflow-x:auto;
+  overflow-y: auto;
+}
+.tablecurrent th {
+  background-color: #4c45b9;
+  font-family: Mukta;
+  font-weight: 18px;
+  font-size: 700;
+  color: #ffffff;
+  text-align: justify;
+}
+.tablecurrent td {
+  background-color: #f5f5f5;
+  font-family: Calibri;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  height: 68px;
+}
+.table .smeth {
+  border-radius: 10px 0px 0px 0px;
+}
+.table .smeth1 {
+  border-radius: 0px 10px 0px 0px;
+}
+
+@media only screen and (max-width: 768px) {
+  .currentsme-ml {
+    width: 100%;
+    height: 100%;
+  }
+  .currentsme1 {
+    background-image: url(../../../public/assets/Group\ 87.png);
+    width: 100%;
+  
+    margin-top: 30px;
+  }
+  .currentsme2 {
+    width: 100%;
+    height: 20px;
+    margin-left: -120px;
+  }
+  .currentsme2-head {
+    width: 350px;
+    text-align: center;
+    padding-top: 50px;
+  }
+  .currentsme2-lnk {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 350px;
+    height: auto;
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 20px;
+    padding-left: 30px;
+  }
+  .currentsme5 {
+   margin-left: 0px;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: justify;
+    color: #323232;
+   padding: 8px;
+  }
+  .currentsme6 {
+    display: flex;
+    text-align: center;
+    width: 100%;
+    height: 42px;
+    text-align: center;
+    border-radius: 7px;
+    margin-top: 50px;
+    padding: 4px;
+ }
+  .currentsme6 { 
+    width: 100%;
+    height: 42px;
+    text-align: center;
+    border-radius:7px;
+    margin-top:30px;
+  }
+  .currentsme6-b {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 20px;
+    font-family: Mukta;
+    text-align: justify;
+    height: 20px;
+    color: #323232;
+  }
+  .currentsme6-in {
+    padding: 10px;
+    text-align:start;
+    width: 336px;
+    height: 42px;
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 15px;
+  }
+  .currentsme6-btn {
+    width: 146px;
+    height: 42px;
+    text-align: center;
+    margin-left:15px;
+  }
+  .currentsme8 h4 {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 36px;
+   padding: 2px;
+  }
+  .currentsme10 {
+    width: 100%;
+    padding:0px;
+  }
+ 
+}

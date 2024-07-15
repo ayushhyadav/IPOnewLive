@@ -1,0 +1,26 @@
+.excel-head{
+    color: #0a3753;
+}
+.wrapper{
+    width: 100%;
+    height: 100%;
+    padding-left: 30px;
+}
+.wrapper .btn{
+    margin-top: 10px;
+    width: 300px;
+    color: #FFFFFF;
+    background-color: #0a3753;
+}
+.form-control{
+    width: 100%;
+}
+.alert-secondary{
+    width:80%;
+    margin-top: 10px;
+    text-align: center;
+}
+.alert-danger{
+    width: 80%;
+    margin-top: 10px;
+}

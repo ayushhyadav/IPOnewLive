@@ -1,0 +1,264 @@
+.mid-content {
+    width: 100%;
+      margin-top: 30px ;
+      }
+.mid-content p{
+
+    font-family: Calibri;
+    text-align: justify;
+    width:90%;
+    height: 73px;
+    font-weight:300;
+    font-size: 20px;
+    line-height: 33px;
+    margin-left: 70px;
+    
+   }
+.mid-heading{
+    margin-top: 50px;
+    font-family: mukta;
+    font-size:36px ;
+    font-weight:700 ;
+    line-height:36px ;
+    text-align: center;
+    color: #4C45B9;
+}
+.mid-link{
+    text-decoration: none;
+    color: #000000;
+
+}
+/* New table css */
+
+.table1{
+    border-collapse: collapse;
+    height: 130px;
+
+}
+.table1 .th-1{
+     width: 1160px;
+     height: 47px;
+     justify-content: center;
+     text-align: center;
+     align-items: center;
+    font-weight:700 ;
+    line-height:20px ;
+    font-size: 20px;  
+    font-family: Mukta; 
+    background-color: #4C45B9;
+    color: #FFFFFF;
+    }
+.th-11{
+    border-radius: 10px 0px 0px 0px ;
+   
+    
+}
+.th-12{
+    border-radius: 0px 10px 0px 0px ;
+}
+.tr-1{
+    background-color: #F5F5F5;
+    border-radius: 3px;
+    font-size:16px ;
+    font-weight: 400;
+    line-height: 16px;   
+    color: #323232;
+    text-align: center;
+   
+}
+.tr-2{
+    background-color: #EDECF8;
+}
+
+.table1{
+    width: 100%;
+    border-collapse:collapse;
+    
+    
+}
+.mid-table{
+    width: 100%;
+  margin-top: 30px;
+  padding: 0px 80px 0px 85px;
+}
+
+/* mid-block css */
+
+
+
+.midsub-block{
+   box-shadow: 0 0 7px #000000;
+     height:180px;
+     width: 320px;
+     border-radius: 4px;
+     background-color: #FFFFFF;
+
+}
+
+.middiv1 p{
+    text-align: start;
+    padding-left: 2px auto;
+}
+.middiv-cont b{
+    text-align: start;
+}
+.mid-blocks{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;  
+    margin-top: 80px;
+}
+.midhead5 {
+    background-color: #4C45B9;
+    color: #FFFFFF;
+    font-size: 12px;
+    height: 30px;
+    width: 250px;
+    display: flex;
+    align-items: center; /* Changed from align-content to align-items */
+    justify-content: center;
+    padding: 5px;
+    margin-left: 35px;
+    border-radius: 0px   0px  10px 10px;
+}
+.middiv-cont
+{
+    text-align: start;
+    padding-left: 1.8rem;
+}
+/* bottom div css*/
+.comment-box{
+    box-shadow: 0 0 7px #000000;
+    width: 100%;
+    height: 200px;
+    margin-top: 50px;
+}
+.note{
+    text-align: start;
+    margin-left: 95px;
+    font-size:15px;
+    font-family:Calibri;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.bold-1{
+    font-size:16px;
+    font-family: mukta;
+    font-weight: 600;
+}
+.divbtn{
+    text-align: right;
+}
+#btn-1 {
+    background-color:#4C45B9;
+    color: #FFFFFF;
+    border-radius:7px;
+    height: 42px;
+    width: 212px;
+    margin-top: 49px;
+    margin-right: 20px;
+    padding:2px;
+    font-weight: 600;
+    font-family: mukta;
+    font-size: 17px;
+    line-height: 17px;
+     }
+     .bot-div{
+        margin-top: 50px;
+        width:85%;
+        box-shadow: 0 0 7px #000000;
+      height: 150px;
+      margin-left:100px;
+      }
+     .label-1{
+        text-align: right;
+     }
+
+     @media screen and (max-width: 768px) {
+        .mid-content{
+            width: 100%;
+        }
+        .mid-content p{
+            text-align:justify;
+            justify-content: start;
+            width:100%;
+            height:auto;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 25px;
+            margin-left: 0px;
+            padding: 6px;
+        }
+        .mid-heading{
+            margin-top: 20px;
+            font-size:30px ;
+            font-weight:700 ;
+            line-height:30px ;
+            text-align: center;
+            color: #4C45B9;
+        }
+        .mid-table{
+            width: 100%;
+        }
+        .table1{
+            border-collapse: collapse;
+            height: 200px;
+        
+        }
+        .table1 .th-1{
+             width:100%;
+             height: 47px;
+             align-items: center;
+            font-weight:500 ;
+            line-height:15px ;
+            font-size: 15px;   
+            }
+        .th-11{
+            border-radius: 10px 0px 0px 0px ;
+        }
+        .th-12{
+            border-radius: 0px 10px 0px 0px ;
+        }
+        .tr-1{
+        background-color: #F5F5F5;
+        border-radius: 3px;
+        align-content: normal;
+        font-size:16px ;
+        font-weight: 300;
+        line-height: 16px;   
+        color: #323232;
+        text-align: left;
+           
+        }
+        .tr-2{
+            background-color: grey;
+        }
+        
+        .table1{
+            width: 100%;
+            border-collapse:collapse;
+            margin-left: -55px;
+        }
+        .bot-div{
+            margin-top: 50px;
+            width:95%;
+            box-shadow: 0 0 7px #000000;
+          height: 150px;
+          margin-left:9px;
+          }
+          #btn-1{
+            width: 100px;
+             margin-right: 120px;
+          }
+          .note{
+            text-align: start;
+            margin-left:1px;
+            margin-right: 1px;
+            font-size:15px;
+            font-family: mukta;
+            font-weight: 400;
+            margin-top: 20px;
+        
+        }
+     }

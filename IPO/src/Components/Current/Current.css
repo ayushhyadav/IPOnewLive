@@ -1,0 +1,377 @@
+.current-ml{
+    width: 100%;
+    height: 100%;
+}
+.current1{
+    background-image: url(../../../public/assets/Group\ 87.png);
+    width: 100%;
+    height:200px;
+    margin-top:30px;
+    background-size:cover;
+}
+.current2{
+    width:100% ;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    padding-left: 80px;
+    padding-top: 50px;
+    
+}
+.current2-head{
+    font-size:38px ;
+    font-family: Mukta;
+    font-weight: 700;
+    line-height: 40px;
+    color: #FFFFFF;
+ 
+
+}
+.current2-lnk{
+    width: 100%;
+    height:40px;
+    font-size:20px ;
+    font-family: Mukta;
+    font-weight: 300;
+    line-height: 28px;
+    padding-left: 10px;
+   
+}
+.current-lnk{
+    color: #FFFFFF;
+    text-decoration: none;
+
+}
+.current3{
+    width: 100%;
+}
+.current4{
+    display: flex;
+    text-align: center;
+    margin-top: 50px;
+     align-items: center;
+     justify-content: center;
+    
+}
+.current4-btn{
+
+    width: 200px;
+    height: 61px;
+    border-radius:10px;
+    font-family: mukta;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 400;
+    border: none;
+    background-color: #FFFFFF;
+    text-decoration: none;
+    padding-top: 4px;
+    color:#323232;
+    
+}
+
+/* .current4-btn1{
+    color:#4C45B9 ;
+    background-color: #5e57c076;
+    font-weight: 700;
+} */
+
+.current5{
+    width:100%;
+    height:228px;
+    margin-top: 10px;
+    padding-left: 70px;
+
+   
+}
+.current5 p{
+    font-family:Calibri; 
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: justify;
+    color: #323232;
+}
+.current6{
+    width: 100%;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    border-radius: 7px;
+    margin-top: 50px;
+    align-items: center;
+    gap: 20px;
+  
+    
+}
+.current6-b{
+    font-size:20px ;
+    font-weight:500 ;
+    line-height: 20px;
+    font-family: Mukta;
+    height: 20px;
+    color: #323232;
+}
+.current6-in{
+    width: 336px;
+    height: 42px;
+    border-radius: 7px;
+    border: 0.8px solid #3232329C;
+    font-family:Mukta;
+    font-size:15px ;
+    font-weight:300 ;
+    line-height: 15px;
+    /* margin-left:75px; */
+
+}
+.current6-btn{
+    width: 146px;
+    height: 42px;
+    border-radius: 7px;
+    background-color:#4C45B9 ;
+    color: #FFFFFF;
+    font-size: 17px;
+    font-family: Mukta;
+    font-weight: 600;
+    text-align: center;
+    line-height: 17px;
+    
+}
+.current7{
+  
+    width:100%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    height: 17px;
+    margin-top: 60px;
+   
+}
+
+.current7ln{
+
+    font-family: mukta;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 17px;
+    text-decoration: none;
+    color: #323232;
+}
+.current8{
+  
+    text-align: center;
+    height: 36px;
+    margin-top: 30px;
+}
+.current8 h4{
+    font-size: 36px;
+    font-family: Mukta;
+    font-weight: 700;
+    line-height: 36px;
+    color: #4C45B9;
+}
+/* New table css */
+.current9tab{
+    width: 100%;
+    overflow-x: auto;
+}
+.current10tab{
+    width: 100%;
+    padding-left:90px;
+    padding-right:90px;
+    margin-top: 30px;
+}
+
+.currenttable1{
+    border-collapse: collapse;
+    height:auto;
+    width: 100%;
+}
+.currenttable1 th{
+    background-color: #4C45B9;
+    color: #F5F5F5;
+}
+.currentth-head4{
+   width: 100%;
+    height: 46.58px;
+    border-radius: 10px 10px 0 0 ;
+    background-color:#F5F5F5;
+    font-family: Mukta;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    padding-top: 10px;
+}
+.currentth-1{
+       background-color: #4C45B9;
+       color: white;
+       height: 47px;
+    align-content: normal;
+    font-family:mukta ;
+    font-weight:700 ;
+    line-height:20px ;
+    font-size: 20px;
+}
+.currentth-11{
+    border-radius: 10px 0px 0px 0px ;
+   
+}
+.currentth-12{
+    border-radius: 0px 10px 0px 0px ;
+}
+.currenttr-1{
+    background-color: #F5F5F5;
+    border-radius: 3px;
+    align-content: normal;
+    font-size:16px ;
+   font-family: Calibri;
+   font-weight: 400;
+   line-height: 16px;   
+   color: #323232;
+    height: 40.5px ;
+   
+}
+.currenttr-str{
+    height:68px ;
+}
+.currenttr-2{
+    background-color: #EDECF8;
+}
+.current12{
+    text-align: end;
+    margin-right: 90px;
+}
+
+@media only screen and (max-width: 768px) {
+     .current-ml{
+        width: 100%;
+     }
+     .current1{
+        width: 100%;
+        padding-top:50px ;
+        
+    }
+    /* i am here i need to start from here */
+    .current2{
+        width:100% ;
+        }
+ 
+  }
+  
+ 
+  @media only screen and (max-width: 768px) {
+   
+  .current2-lnk { 
+    display: flex;
+    width: 360px;
+    gap: 10px;
+    margin-left: -80px; /* Further adjust spacing for smaller devices */
+
+  }
+  .current2-head{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+      margin-top:-50px;
+      margin-left: -80px; 
+  }
+  .current4{
+    display: flex;
+    flex-direction: column;
+     text-align: center;
+     align-items: center;
+    
+}
+.current5{
+    width:100%;
+    height:auto;
+    margin-left: 0px;
+   margin-top: 10px;
+   padding: 10px;   
+}
+.current5 p{
+    font-family:Calibri; 
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: justify;
+    color: #323232;
+}
+.current6{
+    width:100%;
+    height: auto;
+   display: flex;
+    justify-content: center;
+     gap: 5px;
+     padding: 4px;  
+}
+.current6-b{
+    font-size:15px ;
+    font-weight:300 ;
+    line-height: 20px;
+     height: 20px;
+    color: #323232;
+    margin-bottom: 17px;
+}
+.current6-in{
+    
+    width: 450px;
+    border-radius: 5px;
+    border: 0.8px solid #3232329C;
+    font-size:11.5px ;
+    font-weight:300 ;
+}
+.current6-btn{
+    width: 150px;
+    height: 42px;
+    color: #FFFFFF;
+    font-size: 17px;
+    font-family: Mukta;
+    font-weight: 400;
+    text-align: center;
+    line-height: 17px;
+    
+}
+.current8 h4{
+    font-size: 30px;
+   padding: 2px;
+    font-weight: 700;
+    line-height: 36px;
+    color: #4C45B9;
+}
+.current8{
+  
+    text-align: center;
+    height: 36px;
+    margin-top: 60px;
+}
+.current9tab{
+    width: 100%;
+    text-align: center;
+    
+}
+.current10tab{
+    width: 100%;
+margin-left: -90px;
+margin-top: 30px;
+}
+.currentth-head4{
+    width: 360px;
+  text-align: center;
+}
+.current7{
+  
+    width:100%;
+    display: flex;
+    justify-content: center;
+    padding-left: 15px;
+
+}
+.currenttable1{
+    height:400px;
+    width: 100%;
+}
+}
+

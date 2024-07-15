@@ -1,0 +1,350 @@
+.ipogm1{
+    width: 100%;
+    height: 100%;
+}
+.ipogm2{
+    background-image: url(../../../public/assets/Group\ 87.png);
+    width: 100%;
+    height:200px;
+    margin-top: 20px;
+    background-size:cover;
+}
+.ipogm3{
+    width:600px ;
+    height: 20px;
+    margin-left: 110px;
+    
+}
+.ipogm3-head{
+    font-size:40px ;
+    font-family: Mukta;
+    font-weight: 700;
+    line-height: 40px;
+    color: #FFFFFF;
+    padding-top: 60px;
+}
+.ipogm4{
+    width:100%;
+    height:40px;
+    font-size:20px ;
+    font-family: Mukta;
+    font-weight: 300;
+    line-height: 28px;
+  
+   
+}
+.ipogm4-lnk{
+    color: #FFFFFF;
+    text-decoration: none;
+
+}
+.ipogm5{
+    width:100%;
+    height:60px;
+}
+.ipogm6{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+.ipogm6-link{
+    color: #323232;
+    text-decoration: none;
+    width:193px ;
+    height: 50px;
+    font-size:21px ;
+    font-family:Mukta ;
+    border-radius: 10px;
+    font-weight:700 ;
+    text-align: center;
+}
+.ipogm7{
+    width:100%;
+    height: 36px;
+    padding-left: 75px;
+    margin-top: 30px;
+}
+.ipogm7-head{
+    font-family: Mukta;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 36px;
+    margin-left: 6px;
+    color: #4C45B9;
+}
+.ipogm8{
+    width: 100%;
+    display: flex;
+    justify-content:space-evenly;
+
+}
+.ipogm9{
+    width:590px ;
+    height:507px ;
+    text-align: justify;
+    font-weight: 700;
+    font-family: calibri;
+    line-height: 33px;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.ipogm10-img{
+    width: 500px;
+    height: 274px;
+    margin-top: 100px;
+}
+.ipogm11{
+    width: 100%;
+    height: 61px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.ipogm11-link{
+    width: 190.17px;
+    height: 61px;
+    font-family: Mukta;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+    padding-top:15px ;
+    color: #323232;
+    text-decoration: none;
+}
+.ipogm12{
+    width: 100%;
+    height: 42px;
+    border-radius: 7px;
+   display: flex;
+   justify-content: center;
+    align-items: center;
+    gap:25px;
+    margin-top: 40px;
+  
+}
+.ipogm12-b{
+    width:109px ;
+    height: 20px;
+    font-family:Mukta;
+    font-weight: 300;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 20px; 
+}
+.ipogm12-inp{
+    width:336px ;
+    height:42px ;
+    border: 0.8px solid #3232329C ;
+    border-radius: 7px;
+    font-family:calibri ;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 15px;
+}
+.ipogm12-btn{
+    width:146px ;
+    height:42px;
+    border-radius: 7px;
+    background-color: #4C45B9;
+    color: #FFFFFF;
+    font-family:Calibri ;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 17px;
+    text-align: center;
+
+}
+.ipogm13{
+    width: 100%;
+    height: 430px;
+    text-align: center;
+
+    padding:40px;
+    
+}
+.ipogmhead{
+    width: 100%;
+    margin-top: 30px;
+}
+.ipogm-head{
+    color: #4C45B9;
+    font-family: Mukta;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 36px;
+    text-align: center;
+}
+
+.ipogmtable{
+    width: 100%;
+    border-collapse: collapse;
+    overflow-x: auto;
+    
+}
+
+table .ipogm-th{
+    height: 68px; 
+ background-color: #4C45B9;
+    color: #FFFFFF;
+    font-family: Mukta;
+    border: 1px solid #FFFFFF;
+    text-align:justify  ;
+}
+.ipogm-th1{
+    border-radius: 10px 0px 0px 0px;
+  
+}
+.ipogm-th2{
+    border-radius: 0px 10px 0px 0px;
+  
+}
+.ipogm-tr{
+       width: 100%; 
+       height: 68px;
+       background-color: #F5F5F5;
+       text-align: left;
+       font-size: 15px;
+       font-family:Calibri;
+       font-weight: 500;
+       list-style: 15px;
+       color: #323232;
+}
+.ipogm14{
+    width: 100%;
+    display: flex;
+    height:42px ;
+    justify-content: end;
+    padding-right: 40px;
+}
+@media only screen and (max-width: 768px){
+    .ipogm1{
+        width: 100%;
+        height: 100%;
+    }
+    .ipogm3{
+        width:100% ;
+        height: 20px;
+        margin-left: 0px;
+        padding-left: 30px;
+        
+    }
+    .ipogm5{
+        width:100% ;
+        height: 250px;
+    }
+    .ipogm6{
+        display: flex;
+        flex-wrap: wrap;
+       
+      
+    }
+    .ipogm6-link{
+        width:100%;
+        height: 40px;
+        font-size:22px ;
+        font-weight:500 ;
+        text-align: center;
+        padding-left: 28px;
+        padding-right: 20px;
+    }
+    .ipogm7{
+        width: 100%;
+        height: 36px;
+    
+    }
+    .ipogm8{
+        width: 100%;
+        flex-wrap: wrap;
+    
+    
+    }
+    .ipogm9{
+       width: 100%;
+        height:auto ;
+        text-align: justify;
+        font-weight: 500;
+        font-family: calibri;
+        line-height: 25px;
+        font-size: 15px;
+        margin-top: 30px;
+        padding: 8px;
+
+    }
+    .ipogm10-img{
+        width:100%;
+        height:300px;
+        margin-top: 100px;
+        margin-top: -0px;
+    }
+    .ipogm11{
+        width: 100%;
+        height: 61px;
+        display: flex;
+        flex-direction:column;
+        /* flex-wrap: wrap; */
+        justify-content: space-evenly;
+        margin-top: 80px;
+    
+    }
+    .ipogm11-link{
+        width:100%;
+        height:auto;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 22px;
+        text-align: center;
+
+        }
+    .ipogm12{
+        width: 100%;
+        height: 42px;
+        display:flex;
+       justify-content: center;
+        align-items: center;
+        margin-top:110px;
+        padding: 24px;
+      /* margin-right:70px; */
+      
+    }
+    .ipogm12-b{
+        
+        height: 20px;
+        font-weight:200;
+        font-size: 16px;
+        text-align:center;
+        line-height: 16px; 
+        align-items: center;
+        
+    }
+    .ipogm12-inp{
+       
+        height:42px ;
+        font-weight:300;
+        font-size: 15px;
+        line-height: 15px;
+    }
+    .ipogm12-btn{
+      
+        height:42px;
+        border-radius: 7px;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 17px;
+        text-align: center;
+    
+    }
+    .ipogm13{
+        width: 100%;
+        padding: 0;
+        overflow-x: auto;
+    }
+    .ipogm14{
+       justify-content: center;
+       padding-left: 40px;
+       margin-top: 10px;
+    }
+   
+}

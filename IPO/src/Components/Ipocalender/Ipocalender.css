@@ -1,0 +1,445 @@
+    .ipocalender1{
+    width: 100%;
+    height: 100%;
+}
+.ipocalender2{
+    background-image: url(../../../public/assets/Group\ 87.png);
+    width: 100%;
+    height:200px;
+    margin-top: 20px;
+    background-size:cover;
+    /* border:1px solid red; */
+    
+}
+.ipocalender3{
+    width:100%;
+    height: 20px;
+    padding-left: 70px;
+}
+.ipocalender3-head{
+    font-size:40px ;
+    font-family: Mukta;
+    font-weight: 700;
+    line-height: 40px;
+    color: #FFFFFF;
+    padding-top: 60px;
+   
+
+}
+.ipocalender4{
+    width:100% ;
+    height:40px;
+    font-size:20px ;
+    font-family: Mukta;
+    font-weight: 300;
+    line-height: 28px;
+
+
+
+}
+.ipocalender4-lnk{
+    color: #FFFFFF;
+    text-decoration: none;
+
+}
+.ipocalender6{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 25px;
+     text-align: center;
+     align-items: center;
+ 
+
+}
+.ipocalender6-btn{
+    width: 232px;
+    height: 61px;
+    border-radius:10px;
+    font-family: mukta;
+    font-size: 25px;
+    line-height: 20px;
+    text-align: center;
+    font-weight: 400;
+    border: none;
+    text-decoration: none;
+    background-color: #FFFFFF;
+    color: #323232;
+    
+}
+
+
+.ipocalender7{
+    margin-left: 140px;
+    margin-right: 140px;
+    font-family:Mukta; 
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 33px;
+    text-align: justify;
+    color: #323232;
+ 
+
+}
+.ipocalender7-head{
+    
+    height: 36px;
+    font-weight: 700;
+    font-family: Mukta;
+    line-height: 36px;
+    font-size: 36px;
+    color: #4C45B9;
+    margin-top: -10px;
+  
+
+}
+.ipocalende8{
+    display: flex;
+    width:100%;
+    height: 274px;
+    gap: 40px;
+
+
+}
+.ipocalender8-img{
+    width: 500px;
+    height: 274px;
+
+}
+.ipocalender8-p{
+    width: 590px;
+    height:204px;
+    font-weight: 300;
+    font-family: calibri;
+    text-align: justify;
+    line-height: 33px;
+    margin-top: 20px;
+    margin-right:-3px;
+
+}
+.ipocalender9{
+    margin-top: 20px;
+    overflow-x:auto ;
+  
+}
+.ipocalender10{
+    width: 100%;
+    height: 42px;
+   border-radius: 7px;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  
+}
+.ipocalender10-b{
+    font-size:15px ;
+    font-weight:300 ;
+    line-height: 20px;
+    font-family: Mukta;
+    text-align: justify;
+    height: 20px;
+    color: #323232;
+}
+.ipocalender10-in{
+    width: 336px;
+    height: 42px;
+    margin-left:30px;
+    border-radius: 7px;
+    border: 0.8px solid #3232329C;
+    font-family:calibri;
+    font-size:15px ;
+    font-weight:300 ;
+    line-height: 15px;
+
+}
+.ipocalender10-btn{
+    width: 146px;
+    height: 42px;
+    border-radius: 7px;
+    background-color:#4C45B9 ;
+    color: #FFFFFF;
+    font-size: 17px;
+    font-family: Mukta;
+    font-weight: 600;
+    text-align: center;
+    line-height: 17px;
+    margin-left: 39px;
+}
+
+.ipocalender11{
+    text-align: center;
+    height: auto;
+    margin-top: 25px;
+    
+}
+.ipocalender11 h4{
+    font-size: 36px;
+    font-family: Mukta;
+    font-weight: 700;
+    line-height: 36px;
+    color: #4C45B9;
+}
+.ipocalende12{
+    overflow-x: auto;
+
+}
+/* New table css */
+.ipocalender13{
+    padding: 40px;
+}
+.ipocalendertab{
+   width: 100%;
+ margin-top: 10px;
+ overflow-x: auto;
+ overflow-y: auto;
+   
+}
+.ipocalendertab th{
+   background-color: #4C45B9;
+   color: #FFFFFF;
+
+}
+.ipocalendertab td{
+    color: #4C45B9;
+   border: 1px solid gainsboro;
+
+    
+ 
+ }
+.ipo-th1{
+    border-radius: 5px 0px 0px 5px;
+}
+.ipo-th2{
+    border-radius: 0px 5px 5px 0px;
+}
+
+/* .ipocalender-table{
+    border-collapse: collapse;
+    height: 130px;
+    width: 100%;
+    border-collapse:collapse;
+}
+
+.ipocalender-th{
+       background-color: #4C45B9;
+       color: #FFFFFF;
+       width: 1160px;
+       height: 47px;
+    
+    margin-top: 948px;
+    margin-left:953px ;
+    align-content: normal;
+    font-family:mukta ;
+    font-weight:700 ;
+    line-height:18px ;
+    font-size: 18px;
+           
+       
+    }
+.ipocalender-th1{
+    border-radius: 10px 0px 0px 0px ;
+   
+}
+.ipocalender-th2{
+    border-radius: 0px 10px 0px 0px ;
+}
+.ipocalendertr{
+    background-color: #F5F5F5;
+    border-radius: 3px;
+  align-content: normal;
+  font-size:24px ;
+  font-family: Calibri;
+  font-weight: 700;
+line-height: 18px;   
+color: #4C45B9;
+height: 90px;
+   
+}
+.ipocalendertr-1{
+    background-color: #EDECF8;
+} */
+.ipocalender14{
+    text-align: end;
+    margin-right: 90px;
+    margin-top: 40px;
+
+}
+.ipocalender14-in{
+    width: 40px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+#span1{
+    font-size: 22px;
+    font-family: calibri;
+    text-align: center;
+    line-height: 15px;
+    font-weight: 700;
+     
+}
+
+@media only screen and (max-width: 768px) {
+    
+    .ipocalende1{
+        width: 100%;
+        height:auto;
+    }
+    .ipocalender2{
+        background-image: url(../../../public/assets/Group\ 87.png);
+        width: 100%;
+        height: 200px;
+        margin-top: 10px;
+        
+    }
+    .ipocalender3{
+        width:100%;
+        height: auto;
+        margin-left: 0;
+      
+
+    
+    }
+    .ipocalender3-head{
+        text-align: center;
+        margin-left: -100px;
+        padding-left: 40px;
+     
+
+       
+    }
+    .ipocalender4{
+        width: 100%;
+        display: flex;
+        justify-content:space-evenly;
+        margin-left: -30px;
+       }
+
+    .ipocalender6{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+      }
+    .ipocalender5{
+        width: 100%;
+    }
+    .ipocalender7{
+        display: inline-block;
+        margin-left: 30px;
+        font-family:Mukta; 
+        font-size: 20px;
+        font-weight: 300;
+        text-align: justify;
+        color: #323232;
+       
+
+    }
+   
+    .ipocalende8{
+        display:block;
+        width: 100%;
+        height: 274px;
+        gap: 40px;
+       
+         
+    }
+    .ipocalender8-p{
+        width: 300px;
+        height:355px;
+        font-weight: 300;
+        line-height: 25px;
+     
+
+    }
+    .ipocalender7-head{
+         height: 36px;
+        font-weight: 500;
+        line-height: 36px;
+        font-size: 34px;
+       
+    }
+    .ipocalender8-img{
+        margin-top: -50px;
+        width: 300px;
+        height: 274px;
+
+    }
+    .ipocalender9{
+        width: 100%;
+        margin-top:20px;
+        padding: 2px;
+
+    }
+    
+    .ipocalender10{
+        display: block;
+        width: 100%;
+        height: 42px;
+       border-radius: 7px;
+        display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      margin-left: -0px;
+      padding: 1px;
+      margin-top: 130px;
+   
+    }
+    .ipocalender10-b{
+        width: 180px;
+        font-size:13px ;
+        font-weight:400 ;
+        line-height: 20px;
+        height: 20px;
+        color: #323232;
+        
+    }
+    .ipocalender10-in{
+        width: 500px;
+        height: 42px;
+        font-size:11px ;
+        font-weight:300 ;
+        line-height: 15px;
+        margin-left: -3px;
+    
+    }
+    .ipocalender10-btn{
+        width: 120px;
+        height: 42px;
+        font-size: 12px;
+        font-weight: 500;
+        text-align: center;
+        line-height: 15px;
+        margin-left: 10px;
+    }
+    .ipocalender11{
+        text-align: center;
+        height: 36px;
+        margin-top:40px;
+    }
+    .ipocalender11 h4{
+        font-size: 28px;
+        line-height: 27px;
+        padding-right: 2px;
+      
+    }
+    .ipocalender13{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+      
+
+    }
+    .ipocalendertab{
+        width: 100%;
+       margin-left: 186px;
+ }
+ .ipocalender14{
+
+    margin-right: 120px;
+    margin-top: -20px;
+
+}
+    
+}
+

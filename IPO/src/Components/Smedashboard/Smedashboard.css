@@ -1,0 +1,350 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.smedash1{
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+}
+
+.smedash2{
+     width: 100%;
+     background-image: url(../../../public/assets/Group\ 87.png);
+     height: 200px;
+    text-align: start;
+      padding-left: 70px;
+      padding-top: 60px;
+    background-size:cover;
+}
+.smedash3{
+    width: 100%;
+}
+.smedash4{
+    width: 100%;
+}
+
+.smelnk{
+      color: #F5F5F5;
+      font-family: Mukta;
+      font-weight: 300;
+    text-decoration: none;
+
+}
+.smedash5{
+    width: 100%;
+}
+
+.smedash9-head {
+    text-align: start;
+    color:#4C45B9;
+    font-family: Mukta;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 36px;
+}
+.smedash6{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+   
+}
+.smedash7{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.smedash7-head{
+    font-weight: 400;
+    font-family: Mukta;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;  
+    width: 232px;
+    height: 61px;
+    padding-top: 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    color:#323232 ;
+    }
+    .smedash8{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-left: 100px;
+    }
+.smedash9{
+     width:100% ;
+    height:auto ;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: Calibri;
+    line-height: 33px;
+    text-align:start;
+   
+}
+.smedash9 p{
+    margin-top: 25px;
+}
+.smedash10{
+    width:100%;
+    
+}
+.smedash10 img{
+    width:450px;
+    height: 280px;  /* height: 500px; */
+}
+.smedash13{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items:center ;
+    gap: 20px;
+    padding: 80px;
+    
+}
+.smedash11{
+    width: 100%;
+}
+.smedash12{
+    width: 100%;
+}
+.smedash12-head{
+    margin-top: 70px;
+    color:#4C45B9;
+    font-family: Mukta;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
+
+}
+.card{
+    width: 250px;
+    height: 200px;
+    padding: 2rem;
+    border-radius: 8px;
+}
+.card-title{
+    color: #4C45B9;
+}
+/* table css */
+.smedash27{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+/* heading h5 both have same classname smedash28-head */
+.smedash28-head{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:#F5F5F5;
+    color: black;
+    text-align: center;
+    border-radius: 10px 10px 0px 0px ;
+    font-weight: 700;
+    font-family: Mukta;
+    font-size: 20px;
+    height:46px ;
+    padding-top: 10px;
+}
+.smedash-h1{
+    font-family: Mukta;
+    color: #4C45B9;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 36px;
+     text-align: center;
+}
+
+.smedash28{
+    width:100%;
+    height:100%;
+    flex: 1;
+    margin-right: 20px;
+    margin-left: 10px;
+
+}
+
+.dashtables{
+    width: 100%;
+    border-collapse:collapse;
+    border-radius: 3px;
+    
+}
+
+
+.smedash-tr,.smedash-th{
+    border: 1px solid #dddddd;
+    text-align:left;
+    padding: 8px;
+      
+}
+.smedash-th{
+    background-color: #4C45B9;
+    color: white;
+    border-radius:3px;
+}
+
+@media only screen and (max-width:768px){
+    .smedash1{
+        width: 100%;
+        height: auto;
+        text-align:start;
+        margin-top: 1rem;
+    }
+    
+    .smedash2{
+       
+         background-image: url(../../../public/assets/Group\ 87.png);
+         width: 100%;
+         height: 200px;   
+    }
+    .smedash3{
+        width:100%;
+        
+    }
+    .smedash3 h1{
+        font-size: 35px;
+        text-align: center;
+        margin-left: -65px;
+     
+    }
+    .smedash4{
+        width: 350px;
+        display: flex;
+        margin-left: -60px;
+        padding-left: 15px;
+        gap: 15px;
+    }
+   
+   .smedash6{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .smedash7-head{
+        font-weight: 300;
+       text-align: center;  
+        width:100%;
+        height: 60px;
+    }
+    .smedash8{
+        display: block;
+        width: 100%;
+        align-items: center;
+        text-align:justify;
+        padding-left: 0px ;
+      
+    }
+    .smedash9-head{
+        text-align: center;
+        margin-top: 15px;
+        font-size: 28px;
+        padding: 1px;
+        
+    }
+    .smedash9 p{
+        margin-top: 15px;
+        padding: 15px;
+        line-height: 22px;
+    }
+    .smedash9{
+        width:100% ;
+       height:auto ;
+       font-size: 15px;
+       font-weight: 300;
+       font-family: Calibri;
+       line-height: 33px;
+       text-align:start;  
+   }
+   .smedash10 img{
+    width:100%;
+    height:300px; 
+    padding:10px; 
+}
+.smedash11{
+    margin-top: -40px;
+}
+.smedash13{
+    padding-top: 50px;
+    width: 100%;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    align-items:center ;
+    gap: 20px;
+    margin-top: -50px;
+    
+}
+.card{
+    width:230px;
+    height: 200px;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-left: -18px;
+}
+.smedash27{
+    width: 100%;
+    display: block;
+    justify-content:center;
+    margin-top: -80px;
+    margin-left: 25px;
+
+   
+    
+}
+.smedash28{
+    width:100%;
+    height:100%;
+    flex: 1;
+    margin-left:-25px;
+    margin-top:20px ;
+}
+.smedash28-head{
+    width: 330px;
+    display: block;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    font-weight: 500;
+  font-size: 15px;
+    height:46px ;
+}
+.dashtables{
+    width: 330px;
+    border-collapse:collapse;
+    border-radius:3px;
+    
+}
+.smedash-tr,.smedash-th{
+    
+    text-align:center;
+    padding: 5px;
+      
+}
+.smedash29{
+    margin-top: 40px;
+    margin-left: -25px;
+}
+.smedash-h1{
+   
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 30px;
+     margin-bottom:20px;
+     text-align: center;
+     margin-left:40px ;
+}
+}

@@ -1,0 +1,123 @@
+.header {
+  width: 100%;
+  height: 100%;
+}
+
+.navbar {
+  background-color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.3s ease; /* Add transition for smooth animation */
+}
+
+.navbar-left {
+  flex: 1;
+  margin-left: 50px;
+}
+
+
+.navbar-right {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  transition: all 0.3s ease; /* Add transition for smooth animation */
+  margin-right: 20px;
+}
+
+.navbar-link {
+  color: black;
+  text-decoration: none;
+  margin-left: 20px;
+  transition: color 0.3s ease; /* Add transition for smooth color change */
+  font-weight: 600;
+}
+.mega-grid{
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(3,1fy);
+}
+
+
+
+.menu-button {
+  display: none;
+}
+
+.menu-button span {
+  display: block;
+  width: 25px;
+  height: 3px;
+  background-color:blueviolet;
+  margin: 5px 0;
+  transition: all 0.3s ease; /* Add transition for smooth animation */
+  cursor: pointer;
+}
+
+.open .menu-button span:nth-child(1) {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.open .menu-button span:nth-child(2) {
+  opacity: 0;
+}
+
+.open .menu-button span:nth-child(3) {
+  transform: rotate(45deg) translate(-5px, -6px);
+}
+
+@media (max-width: 768px) {
+  .navbar-left {
+    display: flex;
+    margin-left: 0px;
+    
+  }
+
+  .menu-button {
+    display: block;
+    
+  }
+
+  .navbar-right {
+    flex-direction: column;
+    position: relative;
+    top: 100%;
+    right: 0;
+    backdrop-filter: blur(10px); /* Blur effect */
+    width: 100%;
+    height: 310px;
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+
+    max-height: 0;
+    overflow: hidden;
+    background-color:black;
+   
+    border-radius: 20px;
+  box-shadow: 0px 0px 10px blueviolet;
+    transition: max-height 0.5s ease; /* Add transition for smooth animation */
+  }
+
+  .open .navbar-right {
+    max-height: 500px; /* Adjust max-height as needed */
+    
+  }
+
+  .navbar-link {
+    margin: 10px 0;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+  
+    
+    
+  }
+ 
+}
+
